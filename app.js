@@ -4,6 +4,7 @@
  var colors = 'white green red blue yellow'
 
 	$('.box').on('click', function(){
+		$(this).removeClass(colors);
     	$(this).addClass(color);
   	})
 
